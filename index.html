@@ -51,7 +51,8 @@ title: ThinkBuddy Mega Space
             y = l.getElementsByTagName(r)[0];
             y.parentNode.insertBefore(t, y);
          })(window, document, "clarity", "script", "kuc8w5o9nt");
-      </script>
+      </script> 
+   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
    </head>
 
    <body>
@@ -2306,6 +2307,17 @@ title: ThinkBuddy Mega Space
       <script src="assets/libs/tiny-slider/dist/min/tiny-slider.js"></script>
       <script src="assets/js/vendors/tns-slider.js"></script>
       <script src="assets/js/vendors/zoom.js"></script>
+      <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
    </body>
 
 <!-- Mirrored from ThinkBuddy.codescandy.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2024 06:08:12 GMT -->
