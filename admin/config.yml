@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: yufzimi/ThinkBuddy
+  name: git-gateway
   branch: main
 
 media_folder: "assets/images"
@@ -15,4 +14,3 @@ collections:
         name: "home"
         fields:
           - {label: "Welcome Title", name: "title", widget: "string"}
-          
