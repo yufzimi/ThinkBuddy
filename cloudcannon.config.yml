@@ -12,6 +12,7 @@ collections_config:
   pages:
     path: pages
     icon: wysiwyg
+    url: /[relative_path]
     disable_url: false
     include_developer_files: false
     _enabled_editors:
