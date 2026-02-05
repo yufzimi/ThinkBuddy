@@ -1,5 +1,5 @@
 paths:
-  uploads: uploads
+  uploads: uploads/public/images
   static: ''
 collections_config:
   source:
